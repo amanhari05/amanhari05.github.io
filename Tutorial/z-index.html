@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Index</title>
+    <style>
+        .box{
+            height: 145px;
+            width: 145px;
+            border: 2px solid black;
+        }
+        #box1{ background-color: pink;
+            position: relative;
+            top: 67px;
+            z-index: 67;
+        }
+        #box2{ background-color: rgb(219, 16, 50);
+            top: 14px;
+            position: relative;
+            z-index: 43;
+        }
+        #box3{ background-color: rgb(112, 8, 25);}
+        #box4{ background-color: rgb(40, 152, 226);}
+    </style>
+</head>
+<body>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+</body>
+</html>

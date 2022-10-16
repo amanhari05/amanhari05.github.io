@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+    <style>
+        .navbar {
+            background-color: blueviolet;
+            border-radius: 34px;
+            font-family: sans-serif;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            padding: 20px 30px;
+            color: black;
+        }
+
+        .navbar li:hover {
+            background-color: brown;
+            color: pink;
+            border-radius: 5px;
+
+        }
+
+        .search {
+            display: inline;
+            border-radius: 4px;
+            float: right;
+            margin: 2px;
+            padding: 18px 144px;
+
+        }
+
+        .img {
+            height: 865px;
+            width: 1900px;
+            z-index: -10;
+
+        }
+
+        .body {
+            background-color: rgb(0, 0, 0);
+
+        }
+    </style>
+</head>
+
+<body id="body" class="body">
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>About Us</li>
+                </a>
+                <a href="#">
+                    <li>Download</li>
+                </a>
+                <a href="#">
+                    <li>Contact Us</li>
+                </a>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Click To Search">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <img src="Images/Screenshot_2021-12-31_09_51_14.png" alt="#" class="img">
+</body>
+
+</html> 
